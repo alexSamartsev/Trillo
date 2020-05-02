@@ -30,6 +30,9 @@ Grey dark 3: #999;
   --color-grey-dark-3: #999;
 
   --shadow-dark: 0 2rem 6rem (0, 0, 0, 0.3);
+  --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+
+  --line: 1px solid var(--color-grey-ligh-2);
 }
 * {
   margin: 0;
@@ -57,4 +60,5 @@ body {
   background-repeat: no-repeat;
   color: var(--color-grey-dark-2);
   min-height: 100vh;
+  height: 100%;
 }
